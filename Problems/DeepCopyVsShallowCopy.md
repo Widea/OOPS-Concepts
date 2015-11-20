@@ -6,7 +6,6 @@ Recall array variables in Java are references or pointers. <br>
 
 => A shallow copy can be made by simply copying the reference. <br>
  For example: <br>
-public class Ex{
 
     private int[] data;
     public Ex(int[] values){
@@ -15,13 +14,11 @@ public class Ex{
     public void showData(){
         System.out.println( Arrays.toString(data) );
     }
-}
+    
 The above code shows shallow copying. data simply refers to the same array as vals. <br>
 
 =>A deep copy means actually creating a new array and copying over the values.<br>
 For example: <br>
-
-public class Ex{
 
     private int[] data;
     public Ex(int[] values){
@@ -32,7 +29,6 @@ public class Ex{
     public void showData(){
         System.out.println( Arrays.toString(data) );
     }
-}
 
 The above code shows deep copying.
 
