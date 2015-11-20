@@ -7,6 +7,7 @@ Recall array variables in Java are references or pointers. <br>
 => A shallow copy can be made by simply copying the reference. <br>
  For example: <br>
 public class Ex{
+
     private int[] data;
     public Ex(int[] values){
         data = values;
@@ -21,6 +22,7 @@ The above code shows shallow copying. data simply refers to the same array as va
 For example: <br>
 
 public class Ex{
+
     private int[] data;
     public Ex(int[] values){
         data = new int[values.length];
